@@ -1,0 +1,4 @@
+# Fog - Piece based on Poisson-Disk Sampling
+
+This is a visualization of Mohamed S. Ebeida's Maximal Poisson-Disk Sampling algorithm in two dimensions. This algorithm creates an even distribution of points through the use of quadtrees. The algorithm's output is used to create layers of "fog" by drawing translucent circles with a small radius whose centers were based of the output from the algorithm. Objects could be drawn between layers of fog to make these objects seem more distant in an image. I applied this concept with a "city landscape" at night where closer buildings would be covered in fewer layers of fog than farther buildings. Lights for the building windows and building positions also change with every piece. 2 color options are provided. 
+*/

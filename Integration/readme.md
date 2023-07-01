@@ -1,0 +1,3 @@
+# Integration - Piece based on Simulated Annealing
+
+This is a visualization of simulated annealing applied to find a near optimal solution of a set of nodes in a graph such that no two nodes share an edge. The branching of the tree reflects the quality of the solutions found over time (number of branches at point i is proportional to the number of nodes included in the solution after the ith iteration). The size of each arc in the ring is equal to (len(optimal solution) - len(current solution)) such that the arcs tend to get smaller as we get closer to an optimal solution. The external circles represent the nodes, and the darker colored circles are the nodes that were used in the best found solution. 
